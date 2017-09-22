@@ -1,0 +1,980 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GedWise - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP224.tmp" with contents
+[
+/nologo /MD /W4 /GR /O2 /I "C:\wxWidgets/include" /I "C:\wxWidgets/contrib/include" /I "C:\wxWidgets/lib/vc_lib/msw" /I "C:\Program Files\Microsoft Visual Studio\vc98\include" /D "NOPCH" /D "WIN32" /D "__WXMSW__" /D "_WINDOWS" /Fo"ReleaseMSW/" /Fd"ReleaseMSW\GedWise.pdb" /FD /EHsc /c 
+"D:\My Documents\BPS\GedWise630WX\GedWise Dialog\gedwise.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP224.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+wxmsw28_core.lib wxbase28.lib wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxmsw28_adv.lib wxmsw28_html.lib wxmsw28_xrc.lib wxbase28_net.lib wxbase28_xml.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib /nologo /subsystem:windows /incremental:no /pdb:"ReleaseMSW/GedWise.pdb" /machine:I386 /out:"ReleaseMSW/GedWise.exe" /libpath:"C:\wxWidgets/lib/vc_lib" /libpath:"C:\Program Files\Microsoft Visual Studio\vc98\lib" 
+".\ReleaseMSW\gedwise.obj"
+".\ReleaseMSW\GedWise.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP225.tmp"
+<h3>Output Window</h3>
+Compiling...
+gedwise.cpp
+D:\My Documents\BPS\GedWise630WX\GedWise Dialog\gedwise.cpp(659) : warning C4100: 'name' : unreferenced formal parameter
+Linking...
+wxmsw28_core.lib(dlgcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dlgcmn.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (40300040)
+wxmsw28_core.lib(app.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(main.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(appcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(imaggif.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(imagxpm.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(imagpng.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(imagjpeg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(image.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(gdicmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dialog.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(window.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(toplvcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(toplevel.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(nativdlg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(wincmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(containr.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(sizer.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(datacmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(textctrl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(textcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(choice.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(combobox.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(choiccmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(panelg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(colourcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(colour.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(checkbox.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(control.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(bmpbuttn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(button.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(statbox.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(ctrlcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(stattext.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(brush.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(bitmap.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(statbar.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(gaugecmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(validate.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(gdiimage.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(ctrlsub.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(font.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(gauge95.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(statbr95.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(icon.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(settings.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(statline.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(event.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(settcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(evtloopcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(utilscmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(utilsgui.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dc.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(framecmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(frame.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(evtloop.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(logg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fontmap.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(msgout.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(gsockmsw.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(gifdecod.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(xpmdecod.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(palette.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(imagbmp.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(cursor.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fontcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(pen.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(tooltip.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(accel.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(droptgt.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dcbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(menuitem.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dcclient.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(spinctrl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(menu.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(menucmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dcmemory.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(region.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(iconbndl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dpycmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(scrolbar.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(radiobut.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(slider95.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(spinbutt.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(statbmp.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(listbox.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(cshelp.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(layout.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(rgncmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fontutil.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(clipbrd.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(uxtheme.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dcscreen.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(treectrl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(listctrl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(stockitem.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dib.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(bmpbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(cmndata.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(notebook.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(msgdlg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(textdlgg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(colordlg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fontdlg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(tbarbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(tbar95.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(statusbr.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(mdi.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(imaglist.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fldlgcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(artprov.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(listctrlcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(choicdgg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(anidecod.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(quantize.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fontenumcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(oleutils.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dndcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dobjcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(ownerdrw.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(display.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(lboxcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(tipwin.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(helpchm.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(enhmeta.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dataobj.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(treebase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dragimag.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(prntbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(paper.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(bookctrl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(nbkbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(valtext.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(filedlg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(artstd.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(checklst.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(fontenum.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(popupcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(popupwin.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(helpbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(clipcmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(scrlwing.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(printwin.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(printdlg.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(dcprint.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(timercmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxmsw28_core.lib(timer.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(appbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(object.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(event.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(string.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(dynarray.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(list.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(dynlib.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(dlmsw.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(utilscmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(log.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(intl.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(hash.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(main.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(thread.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(cmdline.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(stdpbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(hashmap.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(filefn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(variant.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(module.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(wfstream.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(stream.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(utils.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(sysopt.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(powercmn.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(platinfo.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(clntdata.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(textbuf.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(strconv.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(convauto.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(ffile.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(tokenzr.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(stopwatch.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(file.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(datetime.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(fmapbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(config.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(encconv.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(filename.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(msgout.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(basemsw.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(debughlp.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(process.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(registry.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(txtstrm.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(utilsexc.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(uri.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(init.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(crashrpt.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(stdpaths.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(dir.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(wxchar.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(fileconf.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(regconf.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(longlong.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(dde.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(textfile.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+wxbase28.lib(ipcbase.obj) : warning LNK4044: unrecognized option "manifestdependency:type='win32'              name='Microsoft.Windows.Common-Controls'        version='6.0.0.0'                               processorArchitecture='x86'                   publicKeyToken='6595b64144ccf1df'               language='*'"; ignored
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+wxpng.lib(pngwutil.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(pngrutil.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxzlib.lib(inftrees.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxzlib.lib(trees.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(pngread.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(pngrtran.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(pngerror.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(pngmem.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxjpeg.lib(jquant2.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxjpeg.lib(jchuff.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(png.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxpng.lib(pngwrite.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxjpeg.lib(jdmarker.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxjpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxjpeg.lib(jdcoefct.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxjpeg.lib(jdhuff.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(regconf.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(longlong.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(dde.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(textfile.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(crashrpt.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(stdpaths.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(dir.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(fileconf.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(txtstrm.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(utilsexc.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(uri.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(init.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(msgout.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(debughlp.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(process.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(registry.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(fmapbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(config.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(encconv.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(filename.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(ffile.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(tokenzr.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(file.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(sysopt.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(platinfo.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(textbuf.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(strconv.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(module.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(wfstream.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(stream.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(utils.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(cmdline.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(stdpbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(filefn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(variant.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(intl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(hash.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(main.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(thread.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(dynlib.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(dlmsw.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(utilscmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(log.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(object.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(event.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(list.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dcprint.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(timercmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(timer.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(appbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(clipcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(scrlwing.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(printwin.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(printdlg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(checklst.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fontenum.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(popupcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(popupwin.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(nbkbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(valtext.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(filedlg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(artstd.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dragimag.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(prntbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(paper.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(bookctrl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(helpchm.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(enhmeta.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dataobj.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(treebase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(ownerdrw.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(display.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(lboxcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(tipwin.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(anidecod.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(quantize.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fontenumcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dobjcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(imaglist.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fldlgcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(artprov.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(choicdgg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(tbarbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(tbar95.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(statusbr.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(mdi.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(msgdlg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(textdlgg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(colordlg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fontdlg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dib.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(bmpbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(cmndata.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(notebook.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dcscreen.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(treectrl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(listctrl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(stockitem.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(rgncmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fontutil.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(clipbrd.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(uxtheme.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(statbmp.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(listbox.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(cshelp.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(layout.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(scrolbar.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(radiobut.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(slider95.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(spinbutt.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dcmemory.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(region.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(iconbndl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dpycmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dcclient.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(spinctrl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(menu.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(menucmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(accel.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(droptgt.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dcbase.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(menuitem.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(cursor.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fontcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(pen.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(tooltip.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(gifdecod.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(xpmdecod.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(palette.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(imagbmp.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(evtloop.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(logg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(fontmap.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(msgout.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(utilsgui.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dc.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(framecmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(frame.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(statline.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(event.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(evtloopcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(utilscmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(gauge95.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(statbr95.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(icon.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(settings.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(validate.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(gdiimage.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(ctrlsub.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(font.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(brush.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(bitmap.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(statbar.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(gaugecmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(button.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(statbox.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(ctrlcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(stattext.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(colourcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(checkbox.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(control.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(bmpbuttn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(choice.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(combobox.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(choiccmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(panelg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(containr.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(sizer.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(textctrl.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(textcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(toplvcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(toplevel.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(nativdlg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(wincmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(image.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(gdicmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dialog.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(window.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(imaggif.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(imagxpm.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(imagpng.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(imagjpeg.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(dlgcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(app.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(main.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxmsw28_core.lib(appcmn.obj) : error LNK2001: unresolved external symbol ___security_cookie
+wxbase28.lib(regconf.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(longlong.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(dde.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(textfile.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(crashrpt.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(stdpaths.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(dir.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(fileconf.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(txtstrm.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(utilsexc.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(uri.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(init.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(msgout.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(debughlp.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(process.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(registry.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(fmapbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(config.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(encconv.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(filename.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(ffile.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(tokenzr.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(file.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(sysopt.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(platinfo.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(textbuf.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(strconv.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(module.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(wfstream.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(stream.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(utils.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(cmdline.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(stdpbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(filefn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(variant.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(intl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(hash.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(main.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(thread.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(dynlib.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(dlmsw.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(utilscmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(log.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(object.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(event.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(list.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dcprint.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(timercmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(timer.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxbase28.lib(appbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(clipcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(scrlwing.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(printwin.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(printdlg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(checklst.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fontenum.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(popupcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(popupwin.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(nbkbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(valtext.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(filedlg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(artstd.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dragimag.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(prntbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(paper.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(bookctrl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(helpchm.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(enhmeta.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dataobj.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(treebase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(ownerdrw.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(display.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(lboxcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(tipwin.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(anidecod.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(quantize.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fontenumcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dobjcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(imaglist.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fldlgcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(artprov.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(choicdgg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(tbarbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(tbar95.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(statusbr.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(mdi.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(msgdlg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(textdlgg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(colordlg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fontdlg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dib.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(bmpbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(cmndata.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(notebook.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dcscreen.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(treectrl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(listctrl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(stockitem.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(rgncmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fontutil.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(clipbrd.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(uxtheme.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(statbmp.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(listbox.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(cshelp.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(layout.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(scrolbar.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(radiobut.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(slider95.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(spinbutt.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dcmemory.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(region.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(iconbndl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dpycmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dcclient.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(spinctrl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(menu.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(menucmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(accel.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(droptgt.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dcbase.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(menuitem.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(cursor.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fontcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(pen.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(tooltip.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(gifdecod.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(xpmdecod.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(palette.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(imagbmp.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(evtloop.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(logg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(fontmap.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(msgout.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(utilsgui.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dc.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(framecmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(frame.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(statline.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(event.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(evtloopcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(utilscmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(gauge95.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(statbr95.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(icon.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(settings.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(validate.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(gdiimage.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(ctrlsub.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(font.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(brush.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(bitmap.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(statbar.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(gaugecmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(button.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(statbox.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(ctrlcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(stattext.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(colourcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(checkbox.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(control.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(bmpbuttn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(choice.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(combobox.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(choiccmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(panelg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(containr.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(sizer.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(textctrl.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(textcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(toplvcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(toplevel.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(nativdlg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(wincmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(image.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(gdicmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dialog.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(window.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(imaggif.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(imagxpm.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(imagpng.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(imagjpeg.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(dlgcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(app.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(main.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxmsw28_core.lib(appcmn.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+wxpng.lib(pngwutil.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(pngrutil.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxzlib.lib(inftrees.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxzlib.lib(trees.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(pngread.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(pngrtran.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(pngerror.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(pngmem.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxjpeg.lib(jquant2.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxjpeg.lib(jchuff.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(png.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxpng.lib(pngwrite.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxjpeg.lib(jdmarker.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxjpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxjpeg.lib(jdcoefct.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxjpeg.lib(jdhuff.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(regconf.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(longlong.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(dde.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(textfile.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(crashrpt.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(stdpaths.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(dir.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(fileconf.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(txtstrm.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(utilsexc.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(uri.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(init.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(msgout.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(debughlp.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(process.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(registry.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(fmapbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(config.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(encconv.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(filename.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(ffile.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(tokenzr.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(file.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(sysopt.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(platinfo.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(textbuf.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(strconv.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(module.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(wfstream.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(stream.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(utils.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(cmdline.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(stdpbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(filefn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(variant.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(intl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(hash.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(main.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(thread.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(dynlib.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(dlmsw.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(utilscmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(log.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(object.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(event.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(list.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dcprint.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(timercmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(timer.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(appbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(clipcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(scrlwing.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(printwin.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(printdlg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(checklst.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fontenum.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(popupcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(popupwin.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(nbkbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(valtext.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(filedlg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(artstd.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dragimag.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(prntbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(paper.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(bookctrl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(helpchm.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(enhmeta.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dataobj.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(treebase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(ownerdrw.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(display.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(lboxcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(tipwin.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(anidecod.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(quantize.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fontenumcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dobjcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(imaglist.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fldlgcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(artprov.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(choicdgg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(tbarbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(tbar95.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(statusbr.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(mdi.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(msgdlg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(textdlgg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(colordlg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fontdlg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dib.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(bmpbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(cmndata.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(notebook.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dcscreen.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(treectrl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(listctrl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(stockitem.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(rgncmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fontutil.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(clipbrd.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(uxtheme.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(statbmp.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(listbox.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(cshelp.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(layout.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(scrolbar.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(radiobut.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(slider95.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(spinbutt.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dcmemory.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(region.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(iconbndl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dpycmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dcclient.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(spinctrl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(menu.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(menucmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(accel.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(droptgt.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dcbase.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(menuitem.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(cursor.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fontcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(pen.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(tooltip.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(gifdecod.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(xpmdecod.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(palette.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(imagbmp.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(evtloop.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(logg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(fontmap.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(msgout.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(utilsgui.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dc.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(framecmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(frame.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(statline.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(event.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(evtloopcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(utilscmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(gauge95.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(statbr95.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(icon.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(settings.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(validate.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(gdiimage.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(ctrlsub.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(font.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(brush.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(bitmap.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(statbar.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(gaugecmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(button.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(statbox.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(ctrlcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(stattext.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(colourcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(checkbox.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(control.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(bmpbuttn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(choice.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(combobox.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(choiccmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(panelg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(containr.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(sizer.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(textctrl.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(textcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(toplvcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(toplevel.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(nativdlg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(wincmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(image.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(gdicmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dialog.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(window.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(imaggif.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(imagxpm.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(imagpng.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(imagjpeg.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(dlgcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(app.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(main.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxmsw28_core.lib(appcmn.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+wxbase28.lib(filefn.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(strconv.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(encconv.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(dynarray.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(list.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(intl.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(hash.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(dobjcmn.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(dataobj.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(event.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(tbar95.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(choicdgg.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(quantize.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(oleutils.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(listbox.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(clipbrd.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(listctrl.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(cmndata.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(droptgt.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(dcbase.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(menu.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(region.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(xpmdecod.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(imagbmp.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(pen.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(accel.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(event.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(dc.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(fontmap.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(gifdecod.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(combobox.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(bitmap.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(statbar.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(statbr95.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(image.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(window.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(toplevel.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(choice.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(main.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(imagxpm.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(imagpng.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxmsw28_core.lib(imagjpeg.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+wxbase28.lib(ipcbase.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(intl.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(hash.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(filefn.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(encconv.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(event.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(dynarray.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxbase28.lib(list.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(quantize.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(oleutils.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(dobjcmn.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(dataobj.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(listctrl.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(cmndata.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(tbar95.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(choicdgg.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(menu.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(region.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(listbox.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(clipbrd.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(pen.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(accel.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(droptgt.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(dcbase.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(fontmap.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(gifdecod.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(xpmdecod.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(imagbmp.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(event.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(utilscmn.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(utilsgui.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(dc.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(combobox.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(bitmap.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(statbar.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(statbr95.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(image.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(window.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(toplevel.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(choice.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(main.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(imagxpm.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(imagpng.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxmsw28_core.lib(imagjpeg.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+wxpng.lib(pngrtran.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxbase28.lib(stopwatch.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxjpeg.lib(jcdctmgr.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxjpeg.lib(jidctflt.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxpng.lib(pngset.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(prntbase.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(paper.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxbase28.lib(utilscmn.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxbase28.lib(variant.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(dcbase.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(layout.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(statusbr.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(ownerdrw.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(font.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(dc.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(imagbmp.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(cursor.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(imagxpm.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(image.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(sizer.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxmsw28_core.lib(textctrl.obj) : error LNK2001: unresolved external symbol __ftol2_sse
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol __time64
+wxmsw28_core.lib(logg.obj) : error LNK2001: unresolved external symbol __time64
+wxbase28.lib(utilscmn.obj) : error LNK2001: unresolved external symbol __time64
+wxbase28.lib(log.obj) : error LNK2001: unresolved external symbol __time64
+wxbase28.lib(stopwatch.obj) : error LNK2001: unresolved external symbol __time64
+wxmsw28_core.lib(gsockmsw.obj) : error LNK2001: unresolved external symbol __wassert
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol __strtoi64
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol __strtoui64
+wxbase28.lib(string.obj) : error LNK2001: unresolved external symbol __vsprintf_p
+wxbase28.lib(wxchar.obj) : error LNK2001: unresolved external symbol __vsprintf_p
+wxbase28.lib(utilscmn.obj) : error LNK2001: unresolved external symbol __ctime64
+wxpng.lib(pngwutil.obj) : error LNK2001: unresolved external symbol ___iob_func
+wxpng.lib(pngrutil.obj) : error LNK2001: unresolved external symbol ___iob_func
+wxbase28.lib(log.obj) : error LNK2001: unresolved external symbol ___iob_func
+wxbase28.lib(msgout.obj) : error LNK2001: unresolved external symbol ___iob_func
+wxjpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol ___iob_func
+wxpng.lib(pngerror.obj) : error LNK2001: unresolved external symbol ___iob_func
+wxbase28.lib(main.obj) : error LNK2001: unresolved external symbol __except_handler4
+wxbase28.lib(thread.obj) : error LNK2001: unresolved external symbol __except_handler4
+wxbase28.lib(crashrpt.obj) : error LNK2001: unresolved external symbol __except_handler4
+wxbase28.lib(stopwatch.obj) : error LNK2001: unresolved external symbol __ftime64
+wxbase28.lib(stopwatch.obj) : error LNK2001: unresolved external symbol __difftime64
+wxbase28.lib(stopwatch.obj) : error LNK2001: unresolved external symbol __mktime64
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol __mktime64
+wxbase28.lib(file.obj) : error LNK2001: unresolved external symbol "int __cdecl _open(char const *,int,int)" (?_open@@YAHPBDHH@Z)
+wxbase28.lib(filename.obj) : error LNK2001: unresolved external symbol "int __cdecl _open(char const *,int,int)" (?_open@@YAHPBDHH@Z)
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol __gmtime64
+wxpng.lib(pngwrite.obj) : error LNK2001: unresolved external symbol __gmtime64
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol __localtime64
+wxbase28.lib(datetime.obj) : error LNK2001: unresolved external symbol __ftol2
+wxbase28.lib(longlong.obj) : error LNK2001: unresolved external symbol __alldvrm
+wxbase28.lib(longlong.obj) : error LNK2001: unresolved external symbol __aulldvrm
+ReleaseMSW/GedWise.exe : fatal error LNK1120: 23 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+GedWise.exe - 738 error(s), 208 warning(s)
+</pre>
+</body>
+</html>
