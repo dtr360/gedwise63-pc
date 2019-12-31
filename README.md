@@ -3,6 +3,6 @@ This repository has the source files for a program that converts a GEDCOM file t
 
 Designed and coded by Daniel Rencricca.
 
-### GedWise PC
+### GedWise PC - Gedcom File Converter
 ![GedWise Converter Screen](graphics/GedWisePC.gif)
 
