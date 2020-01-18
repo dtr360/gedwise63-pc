@@ -1,20 +1,19 @@
 /////////////////////////////////////////////////////////////////////////////////////////
-// Program:            GedWise 6.3
+// Program:         GedWise 6.3
 //
 // File:            GedWise.h
 //
-// Written by:        Daniel T. Rencricca
+// Written by:      Daniel T. Rencricca
 //
-// Last Revision:    March 9, 2005
+// Last Revision:   March 9, 2005
 //
-// Description:        Header file for GedWise.cpp.
+// Description:     Header file for GedWise.cpp.
 /////////////////////////////////////////////////////////////////////////////////////////
 #ifndef _GEDWISE_H_
 #define _GEDWISE_H_
 
 #include "defines.h"
 #include "stdwx.h"
-
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // Defines and Enumerated Types
@@ -168,7 +167,6 @@ typedef enum {
 #ifndef wxFIXED_MINSIZE
 #define wxFIXED_MINSIZE 0
 #endif
-
 
 #define CMD_BROWSE   "firefox"
 #define  CMD_EDIT    "gedit"
